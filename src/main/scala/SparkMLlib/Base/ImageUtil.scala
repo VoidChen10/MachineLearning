@@ -6,7 +6,7 @@ import java.awt.image.BufferedImage
 import scala.collection.mutable.ArrayBuffer
 
 /**
-  * @author Chenyl
+  * @author voidChen
   * @date 2019/2/27 14:47
   */
 object ImageUtil {

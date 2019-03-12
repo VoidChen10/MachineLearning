@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 /**
- * @author Chenyl
+ * @author voidChen
  * @date 2019/2/27 18:46
  */
 public class ByteUtil {

@@ -5,7 +5,7 @@ import org.apache.spark.mllib.linalg.Vectors
 import org.apache.spark.{SparkConf, SparkContext}
 
 /**
-  * @author Chenyl
+  * @author voidChen
   * @date 2019/2/22 15:10
   */
 object KMeansClustering {
