@@ -2,24 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e558ae5b-04ad-407d-b5a7-9f8f376a6ee0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/SparkMLlib/Base/MNIST_Util.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/SparkMLlib/Classification/RondomForestExample.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/hydra.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/scala_sdk_2_11_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MachineLearning.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ByteUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ByteUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Directory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Directory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/SparkMLlib/Base/DataToMNIST.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/SparkMLlib/Base/FileUtil.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/SparkMLlib/Base/FileUtil.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/SparkMLlib/Base/ImageUtil.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/SparkMLlib/Base/ImageUtil.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/SparkMLlib/Classification/NaiveBayesExample.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/SparkMLlib/Classification/NaiveBayesExample.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/SparkMLlib/Clustering/KMeansClustering.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/SparkMLlib/Clustering/KMeansClustering.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SparkMLlib/Classification/NaiveBayesExample$$anonfun$loadLabel$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SparkMLlib/Classification/NaiveBayesExample$$anonfun$loadLabel$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SparkMLlib/Classification/NaiveBayesExample$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/SparkMLlib/Classification/RondomForestExample.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/SparkMLlib/Classification/RondomForestExample.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SparkMLlib/Classification/NaiveBayesExample$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SparkMLlib/Classification/NaiveBayesExample$$anonfun$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SparkMLlib/Classification/NaiveBayesExample$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SparkMLlib/Classification/NaiveBayesExample$$anonfun$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SparkMLlib/Classification/NaiveBayesExample$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SparkMLlib/Classification/NaiveBayesExample$$anonfun$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SparkMLlib/Classification/NaiveBayesExample$$anonfun$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SparkMLlib/Classification/NaiveBayesExample$$anonfun$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SparkMLlib/Classification/NaiveBayesExample$$anonfun$loadImages$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SparkMLlib/Classification/NaiveBayesExample$$anonfun$loadImages$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SparkMLlib/Classification/NaiveBayesExample$$anonfun$loadLabel$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SparkMLlib/Classification/NaiveBayesExample$$anonfun$loadLabel$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SparkMLlib/Classification/NaiveBayesExample$$anonfun$loadLabel$3.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/SparkMLlib/Classification/NaiveBayesExample$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SparkMLlib/Classification/NaiveBayesExample$.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/SparkMLlib/Classification/NaiveBayesExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SparkMLlib/Classification/NaiveBayesExample.class" afterDir="false" />
     </list>
@@ -36,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/scala/SparkMLlib/Base/ImageUtil.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-958">
-              <caret line="9" column="18" lean-forward="true" selection-start-line="7" selection-end-line="10" selection-end-column="4" />
+              <caret line="9" column="18" selection-start-line="7" selection-end-line="10" selection-end-column="4" />
               <folding>
                 <element signature="e#25#60#0" expanded="true" />
               </folding>
@@ -44,13 +37,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/SparkMLlib/Classification/RondomForestExample.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="19">
+              <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
               <folding>
-                <element signature="e#35#109#0" expanded="true" />
+                <element signature="e#36#69#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -59,8 +52,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/SparkMLlib/Classification/NaiveBayesExample.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1444">
-              <caret line="76" column="6" selection-start-line="76" selection-start-column="6" selection-end-line="76" selection-end-column="6" />
+            <state relative-caret-position="285">
+              <caret line="33" column="21" lean-forward="true" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="32" />
               <folding>
                 <element signature="e#36#91#0" expanded="true" />
               </folding>
@@ -68,7 +61,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/SparkMLlib/Base/MNIST_Util.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="342">
@@ -108,12 +101,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/Directory.java" />
-        <option value="$PROJECT_DIR$/src/main/scala/SparkMLlib/Classification/RondomForestExample.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/SparkMLlib/Base/FileUtil.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/SparkMLlib/Base/ImageUtil.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/SparkMLlib/Base/DataToMNIST.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/SparkMLlib/Base/MNIST_Util.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/SparkMLlib/Classification/NaiveBayesExample.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/SparkMLlib/Classification/RondomForestExample.scala" />
       </list>
     </option>
   </component>
@@ -242,7 +235,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552355770858" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552355973786" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -260,7 +253,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RondomForestExample">
+  <component name="RunManager" selected="Application.NaiveBayesExample">
     <configuration name="DataToMNIST" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="SparkMLlib.Base.DataToMNIST" />
       <module name="MachineLearning" />
@@ -316,8 +309,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RondomForestExample" />
         <item itemvalue="Application.NaiveBayesExample" />
+        <item itemvalue="Application.RondomForestExample" />
         <item itemvalue="Application.DataToMNIST" />
         <item itemvalue="Application.Directory" />
       </list>
@@ -341,17 +334,26 @@
       <workItem from="1552283050327" duration="1983000" />
       <workItem from="1552313726664" duration="4025000" />
       <workItem from="1552351203862" duration="960000" />
-      <workItem from="1552352557141" duration="2549000" />
+      <workItem from="1552352557141" duration="2744000" />
     </task>
+    <task id="LOCAL-00001" summary="调整代码结构，添加随机森林demo">
+      <created>1552355845019</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1552355845019</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12493000" />
+    <option name="totallyTimeSpent" value="12688000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="82" y="22" width="1585" height="1017" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24623445" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24623445" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -371,7 +373,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32739422" />
+      <window_info active="true" anchor="bottom" id="Messages" order="13" visible="true" weight="0.32714617" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24950884" />
@@ -386,6 +388,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="调整代码结构，添加随机森林demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="调整代码结构，添加随机森林demo" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/Directory.java">
@@ -412,16 +418,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/SparkMLlib/Classification/RondomForestExample.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#35#109#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/SparkMLlib/Base/DataToMNIST.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -439,19 +435,9 @@
     <entry file="file://$PROJECT_DIR$/src/main/scala/SparkMLlib/Base/ImageUtil.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-958">
-          <caret line="9" column="18" lean-forward="true" selection-start-line="7" selection-end-line="10" selection-end-column="4" />
+          <caret line="9" column="18" selection-start-line="7" selection-end-line="10" selection-end-column="4" />
           <folding>
             <element signature="e#25#60#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/SparkMLlib/Classification/NaiveBayesExample.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1444">
-          <caret line="76" column="6" selection-start-line="76" selection-start-column="6" selection-end-line="76" selection-end-column="6" />
-          <folding>
-            <element signature="e#36#91#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -469,6 +455,26 @@
           <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
           <folding>
             <element signature="e#25#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/SparkMLlib/Classification/NaiveBayesExample.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="33" column="21" lean-forward="true" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="32" />
+          <folding>
+            <element signature="e#36#91#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/SparkMLlib/Classification/RondomForestExample.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+          <folding>
+            <element signature="e#36#69#0" expanded="true" />
           </folding>
         </state>
       </provider>

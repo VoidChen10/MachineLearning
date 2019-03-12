@@ -1,6 +1,7 @@
 package SparkMLlib.Classification
 
-import SparkMLlib.Classification.NaiveBayesExample.{loadImages, loadLabel}
+
+import SparkMLlib.Base.MNIST_Util
 import org.apache.spark.{SparkConf, SparkContext}
 import org.apache.spark.mllib.classification.NaiveBayes
 import org.apache.spark.mllib.linalg.Vectors
@@ -24,10 +25,10 @@ object RondomForestExample {
     val conf = new SparkConf().setMaster("local[*]").setAppName("NaiveBayesExample")
     val sc = new SparkContext(conf)
 
-    val trainLabel = loadLabel(trainLabelFilePath)
-    val trainImages = loadImages(trainImageFilePath)
-    val testLabel = loadLabel(testLabelFilePath)
-    val testImages = loadImages(testImageFilePath)
+    val trainLabel = MNIST_Util.loadLabel(trainLabelFilePath)
+    val trainImages = MNIST_Util.loadImages(trainImageFilePath)
+    val testLabel = MNIST_Util.loadLabel(testLabelFilePath)
+    val testImages = MNIST_Util.loadImages(testImageFilePath)
 
     // Train a RandomForest model.
     // Empty categoricalFeaturesInfo indicates all features are continuous.
