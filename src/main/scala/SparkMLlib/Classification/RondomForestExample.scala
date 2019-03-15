@@ -3,7 +3,6 @@ package SparkMLlib.Classification
 
 import SparkMLlib.Base.MNIST_Util
 import org.apache.spark.{SparkConf, SparkContext}
-import org.apache.spark.mllib.classification.NaiveBayes
 import org.apache.spark.mllib.linalg.Vectors
 import org.apache.spark.mllib.regression.LabeledPoint
 import org.apache.spark.mllib.tree.RandomForest
@@ -34,11 +33,11 @@ object RondomForestExample {
     // Empty categoricalFeaturesInfo indicates all features are continuous.
     val numClasses = 10
     val categoricalFeaturesInfo = Map[Int, Int]()
-    val numTrees = 3 // Use more in practice.
+    val numTrees = 29 // Use more in practice.
     val featureSubsetStrategy = "auto" // Let the algorithm choose.
-    val impurity = "gini"
-    val maxDepth = 5
-    val maxBins = 32
+    val impurity = "entropy"
+    val maxDepth = 30
+    val maxBins = 100
 
     //处理成mlLib能用的基本类型 LabeledPoint
     if(trainLabel.length == trainImages.length) {
@@ -51,24 +50,26 @@ object RondomForestExample {
       val trainRdd = sc.makeRDD(data)
 
       println("开始计算")
-//      val model = NaiveBayes.train(trainRdd)
+
       val model = RandomForest.trainClassifier(trainRdd, numClasses, categoricalFeaturesInfo,
         numTrees, featureSubsetStrategy, impurity, maxDepth, maxBins)
+      model.save(sc,userPath + "/src/main/resources/model/RondomForest")
 
       println("检验结果")
-      val testData = testImages.map(d => Vectors.dense(d.map(p => (p & 0xFF).toDouble )))
-      val testRDD = sc.makeRDD(testData)
+      val testData = testLabel.zip(testImages)
+        .map(d =>( d._1.toInt,Vectors.dense(d._2.map(p => (p & 0xFF).toDouble )) ))
+      val testRDD = sc.makeRDD(testData.map(_._2))
       val res = model.predict(testRDD).map(l => l.toInt).collect()
 
       //res.foreach(println(_))
 
-      val tr = res.zip(testLabel)
+      val tr = res.zip(testData.map(_._1))
 
       val sum = tr.map( f =>{
         if(f._1 == f._2.toInt) 1 else 0
       }).sum
 
-      println("准确率为："+ sum.toDouble /tr.length)
+      println("准确率为："+ sum.toDouble /tr.length.toDouble)
 
     }
   }

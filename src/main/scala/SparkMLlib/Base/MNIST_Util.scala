@@ -62,9 +62,9 @@ object MNIST_Util {
     //删掉前面的文件描述
     labelDS = labelDS.drop(8)
     //打印测试数据
-    for ((e, index) <- labelDS.take(3).zipWithIndex) {
-      println(s"image$index is $e")
-    }
+//    for ((e, index) <- labelDS.take(3).zipWithIndex) {
+//      println(s"image$index is $e")
+//    }
 
     labelDS
   }
