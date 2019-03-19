@@ -11,8 +11,8 @@ import org.apache.spark.{SparkConf, SparkContext}
 object KMeansClustering {
   def main (args: Array[String]) {
 
-    val trainingPath = "src/main/resources/Wholesale customers data_training.txt"  //训练数据集文件路径
-    val testPath = "src/main/resources/Wholesale customers data_test.txt" //测试数据集文件路径
+    val trainingPath = "src/main/resources/data/Wholesale customers data_training.txt"  //训练数据集文件路径
+    val testPath = "src/main/resources/data/Wholesale customers data_test.txt" //测试数据集文件路径
 
     val numClusters = 8  //聚类的个数
     val numIterations = 30  //K-means 算法的迭代次数
@@ -72,7 +72,7 @@ object KMeansClustering {
 
   }
 
-  private def isColumnNameLine(line:String):Boolean = {
+  def isColumnNameLine(line:String):Boolean = {
     if (line != null && line.contains("Channel")) true
     else false
   }

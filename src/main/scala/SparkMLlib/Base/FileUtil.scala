@@ -1,6 +1,6 @@
 package SparkMLlib.Base
 
-import java.io.File
+import java.io._
 
 import org.slf4j.LoggerFactory
 
@@ -14,8 +14,32 @@ object FileUtil {
   val log = LoggerFactory.getLogger(FileUtil.getClass)
 
   def main(args: Array[String]): Unit = {
-    val arr = getFileList("C:\\Users\\42532\\Desktop\\own\\","","")
-    arr.foreach(f => println(f.getName))
+//    val arr = getFileList("C:\\Users\\42532\\Desktop\\own\\","","")
+//    arr.foreach(f => println(f.getName))
+    FileIODemo()
+  }
+
+  def FileIODemo(): Unit ={
+    val f= new File("D:\\data\\test.txt")
+//    val f= new File("D:\\data\\Wholesale customers data_training.txt")
+    val in = new InputStreamReader(new FileInputStream(f))
+    val out = new OutputStreamWriter(new FileOutputStream("D:\\data\\test\\test4.txt"))
+//    val out = new OutputStreamWriter(new FileOutputStream("D:\\data\\train\\train4.txt"))
+
+    val r = new BufferedReader(in)
+    val w = new BufferedWriter(out)
+    var lineTxt = Option(r.readLine)
+
+    while ( !lineTxt.isEmpty){
+      println(lineTxt.getOrElse(""))
+      w.write(lineTxt.getOrElse(""))
+      w.flush()
+      lineTxt = Option(r.readLine)
+      if(!lineTxt.isEmpty) w.newLine()
+    }
+
+    in.close
+    w.close()
   }
 
   /**
